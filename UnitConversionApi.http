@@ -1,0 +1,14 @@
+@UnitConversionApi_HostAddress = http://localhost:5000
+
+
+POST {{UnitConversionApi_HostAddress}}/api/conversion
+Content-Type: application/json
+
+{
+  "category": "Length",
+  "fromUnit": "km",
+  "toUnit": "m",
+  "value": 10
+}
+
+###
